@@ -22,7 +22,7 @@ export const Footer = (props) => {
                     </ul>
                 </div>
                 <hr class="my-4 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-6" />
-                <span class="block text-sm sm:text-center text-gray-800">© 2023 <a href="#" class="hover:underline">GDSC GEU</a>. All Rights Reserved.</span>
+                <span class="block text-sm sm:text-center text-gray-800">© 2023 <a href="#" class="hover:underline text-semibold hover:text-blue-700">GDSC GEU</a>. All Rights Reserved.</span>
             </div>
         </footer>
   )
