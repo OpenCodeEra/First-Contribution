@@ -9,6 +9,7 @@ const WhyContribute = () => {
           height={200}
           width={580}
           className='rounded-l-2xl'
+          alt='opencodeera-img'
       />
       <div className='flex order-2 flex-col p-11 py-9 w-full bg-blue-500 rounded-r-2xl'>
         <h2 className="text-2xl font-bold mb-4 text-white">Why to Contribute?</h2>

@@ -18,7 +18,7 @@ import Image from "next/image";
           /> */}
           <div className="md:mb-3 xl:mb-0 h-full w-full px-4 py-2">
             <ChakraProvider>
-              <Avatar size="xl" name={props.name} src={`https://api.dicebear.com/7.x/lorelei/svg?seed=${props.name}&backgroundColor=2E6BD0`} />
+              <Avatar size="xl" name={props.name} src={`https://api.dicebear.com/7.x/lorelei/svg?seed=${props.name}&backgroundColor=2E6BD0`}/>
             </ChakraProvider>
             {/* <Image
               className="rounded-full"

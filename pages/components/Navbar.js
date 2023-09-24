@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = (props) => { 
 
     return (
-        <nav class="bg-opacity-80 flex justify-between bg-gray-200 text-gray-800 w-full z-50 sticky top-0 left-0 w-full">
+        <nav class="bg-opacity-80n flex justify-between bg-gray-200 text-gray-800 w-full z-50 sticky top-0 left-0 w-full">
             <div class="px-5 xl:px-12 py-6 flex w-full items-center justify-center">
                 <a class="text-2xl font-semibold text-gray-800" href="#">
                 Open code Era
