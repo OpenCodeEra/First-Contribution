@@ -21,7 +21,7 @@
 
 ## How to contribute? 🧐
 
-We recommend you to go through the [CONTRIBUTING.md](https://github.com/Clueless-Community/first-contribution/blob/main/CONTRIBUTING.md) file, where we have guided you step by step to make your contribution.
+We recommend you to go through the [CONTRIBUTING.md](https://github.com/OpenCodeEra/first-contribution/blob/main/CONTRIBUTING.md) file, where we have guided you step by step to make your contribution.
 
 Once the pull request is merged, you will find your awesome contribution card on our website.
 
