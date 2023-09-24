@@ -15,6 +15,13 @@ const contributors = [
     gender: "male"
   },
   {
+      name: "Sample ", 
+    skill: "Sample skills ", 
+    linkedin: "https://www.linkedin.com/in/adarsh-rawat/", 
+    github: "https://github.com/AdarshRawat1",
+    gender: "male"
+  },
+   {
     name: "Harsh Raj", 
     skill: "Full-stack development", 
     linkedin: "https://www.linkedin.com/in/harsh-raj-1b6638258/",
@@ -22,5 +29,4 @@ const contributors = [
     gender: "male"
   },
 ]
-
-export default contributors; 
+export default contributors;
