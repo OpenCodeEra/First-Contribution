@@ -7,7 +7,8 @@
 
 - PRs beyond our open issues are welcome but make sure your contributions are meaningful and beneficial to other users otherwise your PR may be closed and marked as ‘invalid’.
 - Issues before PRs. If you plan to make a contribution, please make sure there is an issue for it. You can either find an existing issue or open a new issue if none exists.
-- You are welcome to make your first contribution to this repo. Hactoberfest repos will be added soon 
+- You are welcome to make your first contribution to this repo. Go through with [CONTRIBUTING.md](/CONTRIBUTING.md) file.
+- Hactoberfest repos will be added soon 
 
 ## What would you have to do? 🤔
 
