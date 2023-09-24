@@ -14,6 +14,13 @@ const contributors = [
     github: "https://github.com/AdarshRawat1",
     gender: "male"
   },
+  {
+    name: "Harsh Raj", 
+    skill: "Full-stack development", 
+    linkedin: "https://www.linkedin.com/in/harsh-raj-1b6638258/",
+    github: "https://github.com/harsh661",
+    gender: "male"
+  },
 ]
 
 export default contributors; 
