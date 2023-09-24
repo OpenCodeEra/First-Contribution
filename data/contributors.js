@@ -9,7 +9,7 @@ const contributors = [
   },
   {
     name: "Adarsh Rawat", 
-    skill: "Web Dev Android ML UI/UX  ", 
+    skill: "Web Dev UI/UX  ", 
     linkedin: "https://www.linkedin.com/in/adarsh-rawat/", 
     github: "https://github.com/AdarshRawat1",
     gender: "male"
