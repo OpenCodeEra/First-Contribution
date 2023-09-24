@@ -1,4 +1,5 @@
 const contributors = [
+  // add your details here
   {
     name: "Adarsh Rawat", 
     skill: "Web Cloud ML", 

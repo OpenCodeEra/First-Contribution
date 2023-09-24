@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<h1 align='center'>Learn . Contribute . Grow</h1>
 
-First, run the development server:
+----
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+#### Tips for Contributors:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- PRs beyond our open issues are welcome but make sure your contributions are meaningful and beneficial to other users otherwise your PR may be closed and marked as ‘invalid’.
+- Issues before PRs. If you plan to make a contribution, please make sure there is an issue for it. You can either find an existing issue or open a new issue if none exists.
+- You are welcome to make your first contribution to this repo. Hactoberfest repos will be added soon 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## What would you have to do? 🤔
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
++ [This](https://opencodeera-first-contribution.vercel.app/) is the website we have created for our first contributors, you will see a few cards with some details of the contributor.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+[![image](guide_image/image.png)](https://opencodeera-first-contribution.vercel.app)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
++ Now, to get your contributor card, you have to contribute to this repository, following our guidelines.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## How to contribute? 🧐
 
-## Deploy on Vercel
+We recommend you to go through the [CONTRIBUTING.md](https://github.com/Clueless-Community/first-contribution/blob/main/CONTRIBUTING.md) file, where we have guided you step by step to make your contribution.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Once the pull request is merged, you will find your awesome contribution card on our website.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Thanks to all the contributors ❤️
+
+<a href="https://github.com/OpenCodeEra/first-contribution/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OpenCodeEra/first-contribution" />
+</a>
+<!-- Made with [contrib.rocks](https://contrib.rocks). -->
