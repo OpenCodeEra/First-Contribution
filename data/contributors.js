@@ -20,6 +20,13 @@ const contributors = [
     linkedin: "https://www.linkedin.com/in/adarsh-rawat/", 
     github: "https://github.com/AdarshRawat1",
     gender: "male"
-  }
+  },
+  {
+    name: "Ratan Gulati ", 
+  skill: "Cloud, DevOps, JAVA", 
+  linkedin: "https://www.linkedin.com/in/ratangulati/", 
+  github: "https://github.com/Ratangulati?tab=overview&from=2023-02-01&to=2023-02-02",
+  gender: "male"
+}
 ]
 export default contributors; 
