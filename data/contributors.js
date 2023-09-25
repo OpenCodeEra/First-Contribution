@@ -27,6 +27,13 @@ const contributors = [
   linkedin: "https://www.linkedin.com/in/ratangulati/", 
   github: "https://github.com/Ratangulati?tab=overview&from=2023-02-01&to=2023-02-02",
   gender: "male"
+  },
+  {
+    name: "Ishan Joshi", 
+    skill: "Web Developer", 
+    linkedin: "https://www.linkedin.com/in/ishan-joshi-98b3a2217", 
+    github: "https://github.com/Taejin101",
+    gender: "male"
   }
 ]
 export default contributors;
