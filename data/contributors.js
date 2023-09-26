@@ -34,6 +34,13 @@ const contributors = [
     linkedin: "https://www.linkedin.com/in/ishan-joshi-98b3a2217", 
     github: "https://github.com/Taejin101",
     gender: "male"
-  }
+  }, 
+  {
+    name : "Rakshit Mehta",
+    skill : "React, Node Js, Typescript, MongoDB, C++, C, python",
+    linkedin : "https://www.linkedin.com/in/rakshit-mehta-360570284/",
+    github : "https://github.com/rakshit0960",
+    gender : "male"
+  },
 ]
 export default contributors;
