@@ -26,9 +26,9 @@ Once the pull request is merged, you will find your awesome contribution card on
 
 
 
-<!-- ## Thanks to all the contributors ❤️ -->
-<!-- <a href="https://github.com/OpenCodeEra/first-contribution/graphs/contributors">
+## Thanks to all the contributors ❤️
+<a href="https://github.com/OpenCodeEra/first-contribution/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=OpenCodeEra/first-contribution" />
-</a> -->
+</a>
 
 <!-- Made with [contrib.rocks](https://contrib.rocks). -->
