@@ -14,7 +14,7 @@ export const Footer = (props) => {
                             <a href="#" className="hover:underline hover:text-blue-800">About</a>
                         </li>
                         <li>
-                            <a href="mailto:abc@gmail.com" className="hover:underline hover:text-blue-800">Contact</a>
+                            <a href="mailto:openera@myyahoo.com" className="hover:underline hover:text-blue-800">Contact</a>
                         </li>
                         <li>
                             <a href="#" className="hover:underline hover:text-blue-800">Join us</a>
