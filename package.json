@@ -16,7 +16,7 @@
     "autoprefixer": "10.4.16",
     "flowbite-react": "^0.6.1",
     "framer-motion": "^10.16.4",
-    "next": "13.5.2",
+    "next": "^13.5.2",
     "postcss": "8.4.30",
     "react": "18.2.0",
     "react-dom": "^18.2.0",
@@ -25,9 +25,15 @@
     "react-virtualized": "^9.22.5",
     "react-virtualized-auto-sizer": "^1.0.20",
     "recoil": "^0.7.7",
-    "tsparticles-slim": "^2.12.0"
+    "tsparticles-slim": "^2.12.0",
+    "vite": "^4.4.9"
   },
   "devDependencies": {
     "tailwindcss": "3.3.3"
-  }
+  },
+  "description": "<h1 align='center'>Learn . Contribute . Grow</h1>",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
