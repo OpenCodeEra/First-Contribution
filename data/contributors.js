@@ -1,7 +1,7 @@
 const contributors = [
   // add your details here
   {
-    name: "Adarsh Rawat", 
+    name: "Adarsh", 
     skill: "Web Cloud ML", 
     linkedin: "https://www.linkedin.com/in/adarsh8304/", 
     github: "https://github.com/AKACHI-4",

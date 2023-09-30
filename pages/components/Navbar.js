@@ -5,8 +5,8 @@ const Navbar = (props) => {
 
     return (
         <nav class="bg-opacity-80n flex justify-between bg-gray-200 text-gray-800 w-full z-50 sticky top-0 left-0">
-            <div class="px-5 xl:px-12 py-6 flex w-full items-center justify-center">
-                <a class="text-2xl font-semibold text-gray-800" href="#">
+            <div class="px-5 xl:px-12 py-6 flex w-full items-center justify-between">
+                <a class="text-2xl font-semibold text-gray-800 font-mono" href="#">
                 Open code Era
                 </a>
                 <ul class="hidden md:flex justify-around px-2 mx-auto text-lg font-heading space-x-16">
