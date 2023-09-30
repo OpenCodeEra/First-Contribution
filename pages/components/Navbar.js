@@ -4,15 +4,15 @@ import Link from "next/link";
 const Navbar = (props) => { 
 
     return (
-        <nav class="bg-opacity-80n flex justify-between bg-gray-200 text-gray-800 w-full z-50 sticky top-0 left-0">
-            <div class="px-5 xl:px-12 py-6 flex w-full items-center justify-between">
-                <a class="text-2xl font-semibold text-gray-800 font-mono" href="#">
+        <nav className="bg-opacity-80n flex justify-between bg-gray-200 text-gray-800 w-full z-50 sticky top-0 left-0">
+            <div className="px-5 xl:px-12 py-6 flex w-full items-center justify-between">
+                <a className="text-2xl font-semibold text-gray-800 font-mono" href="#">
                 Open code Era
                 </a>
-                <ul class="hidden md:flex justify-around px-2 mx-auto text-lg font-heading space-x-16">
-                <li><Link class="hover:text-blue-800 hover:underline" href="#">Home</Link></li>
-                <li><Link class="hover:text-blue-800 hover:underline" href="#contributors">Contributors</Link></li>
-                <li><Link class="hover:text-blue-800 hover:underline" href="#">About us</Link></li>
+                <ul className="hidden md:flex justify-around px-2 mx-auto text-lg font-heading space-x-16">
+                <li><Link className="hover:text-blue-800 hover:underline" href="#">Home</Link></li>
+                <li><Link className="hover:text-blue-800 hover:underline" href="#contributors">Contributors</Link></li>
+                <li><Link className="hover:text-blue-800 hover:underline" href="#">About us</Link></li>
                 </ul>
                 <Link href={'https://github.com/OpenCodeEra/first-contribution'} className="flex items-center space-x-5">
                 {/* <a class="hover:text-gray-200" href="#">
@@ -30,7 +30,7 @@ const Navbar = (props) => {
                         </span>
                     </span>
                 </a> */}
-                    <button type="button" class="text-white bg-gray-500 border-1 border-dashed border-white hover:bg-blue-600 font-medium rounded-lg text-sm px-3 py-1.5 transition duration-300 ease-in-out mr-2">Contribute now</button>                
+                    <button type="button" className="text-white bg-gray-500 border-1 border-dashed border-white hover:bg-blue-600 font-medium rounded-lg text-sm px-3 py-1.5 transition duration-300 ease-in-out mr-2">Contribute now</button>                
                 </Link>
             </div>
         </nav>
