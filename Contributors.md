@@ -6,3 +6,4 @@
 - [Ratan Gulati](https://github.com/Ratangulati)
 - [Ishan Joshi](https://github.com/Taejin101)
 - [Rakshit Mehta](https://github.com/rakshit0960)
+- [Naitik Singhal](https://github.com/Lucifer-Overridden)
