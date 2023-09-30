@@ -90,11 +90,11 @@ const Herobar = () => {
         }}
       />
 
-      <div className="relative z-10 w-full flex flex-col justify-center px-4 py-14 md:py-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-8 lg:py-30">
+      <div className="relative z-10 w-full flex flex-col justify-center px-4 py-8 md:py-14 md:py-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-8 lg:py-30">
           <div className="max-w-xl sm:mx-auto lg:max-w-6xl">
-            <div className="flex flex-col my-8 md:my-16 sm:text-center sm:mb-0">
+            <div className="flex flex-col mb-12 md:my-16 sm:text-center sm:mb-0">
               <Link href="/" className="mb-6 sm:mx-auto">
-                <div className="flex items-center justify-center w-16 h-16 rounded-full bg-teal-accent-400">
+                <div className="flex items-center justify-center w-10 h-10 md:w-16 md:h-16 rounded-full bg-teal-accent-400">
                   <svg
                     className="w-14 h-14 text-blue-900"
                     stroke="currentColor"
@@ -110,8 +110,8 @@ const Herobar = () => {
                   </svg>
                 </div>
               </Link>
-              <div className="max-w-xl mb-24 md:mx-auto sm:text-center lg:max-w-3xl lg:mb-44">
-                <h2 className="mb-6 font-sans text-black text-5xl md:text-6xl font-bold leading-none tracking-tight md:mx-auto">
+              <div className="max-w-xl md:mx-auto sm:text-center lg:max-w-3xl mb-60 md:mb-44">
+                <h2 className="mb-6 font-sans text-black text-4xl md:text-6xl font-bold leading-none tracking-tight md:mx-auto">
                   <span className="relative inline-block">
                     <svg
                       viewBox="0 0 52 24"
@@ -142,17 +142,17 @@ const Herobar = () => {
                 <p className="text-base text-gray-900 md:text-lg">
                   Its Open Code Era — your source for everything open source, knowledge, and collaboration!
                 </p>
-                <p className="my-10 text-blue-800 text-xl md:text-2xl font-semibold">
+                <p className="my-10 text-blue-800 text-lg md:text-xl lg:text-2xl font-semibold">
                 Learn . Contribute . Grow
                 </p>
               </div>
               <div class="flex flex-col items-center justify-center animate-bounce gap-2">
                 <span
-                  className="text-black font-normal text-lg"
+                  className="text-black font-normal text-base md:text-lg"
                 >
                   scroll down
                 </span>
-                <svg class="w-6 h-6 text-black" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                <svg class="w-4 h-4 md:w-6 md:h-6 text-black" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
                   <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                 </svg>          
               </div>

@@ -6,7 +6,7 @@ const Navbar = (props) => {
     return (
         <nav className="bg-opacity-80n flex justify-between bg-gray-200 text-gray-800 w-full z-50 sticky top-0 left-0">
             <div className="px-5 xl:px-12 py-6 flex w-full items-center justify-between">
-                <a className="text-2xl font-semibold text-gray-800 font-mono" href="#">
+                <a className="text-xl md:text-2xl font-semibold text-gray-800 font-mono" href="#">
                 Open code Era
                 </a>
                 <ul className="hidden md:flex justify-around px-2 mx-auto text-lg font-heading space-x-16">
