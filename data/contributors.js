@@ -49,5 +49,12 @@ const contributors = [
     github : "https://github.com/Lucifer-Overridden",
     gender : "male"
   },
+  {
+    name : "Vijay Gunwant",
+    skill : "Web | App | Cloud",
+    linkedin : "www.linkedin.com/in/vijay-gunwant",
+    github : "https://github.com/Vijay-Gunwant",
+    gender : "male"
+},
 ]
 export default contributors;
