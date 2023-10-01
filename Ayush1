@@ -1,45 +1,73 @@
-public class WildcardMatching {
+//This code prompts the user to enter the number of words, the words themselves, and the maximum width. It then prints the justified text based on the user input.
+#include <iostream>
+#include <vector>
+#include <string>
 
-    public static boolean isMatch(String s, String p) {
-        int sLength = s.length();
-        int pLength = p.length();
+using namespace std;
 
-        // Create a 2D array to store the matching results
-        boolean[][] dp = new boolean[sLength + 1][pLength + 1];
-        dp[0][0] = true;
+vector<string> fullJustify(vector<string>& words, int maxWidth) {
+    vector<string> result;
+    int i = 0;
 
-        // Handle patterns with '*' at the beginning
-        for (int j = 1; j <= pLength; j++) {
-            if (p.charAt(j - 1) == '*') {
-                dp[0][j] = dp[0][j - 1];
+    while (i < words.size()) {
+        int j = i + 1, currentLen = words[i].size();
+
+        // Add words to the current line until maxWidth is reached
+        while (j < words.size() && currentLen + words[j].size() + (j - i - 1) < maxWidth) {
+            currentLen += words[j].size();
+            j++;
+        }
+
+        int spaces = maxWidth - currentLen;
+
+        // Distribute spaces between words
+        int extraSpaces = j - i - 1;
+        string line = words[i];
+
+        // If it's the last line or only one word in the line
+        if (j == words.size() || extraSpaces == 0) {
+            for (int k = i + 1; k < j; k++) {
+                line += ' ' + words[k];
+            }
+            line += string(maxWidth - line.size(), ' '); // Pad extra spaces for the last line
+        } else {
+            int spacesBetweenWords = spaces / extraSpaces;
+            int extraSpacesRemaining = spaces % extraSpaces;
+
+            for (int k = i + 1; k < j; k++) {
+                int spacesToAdd = spacesBetweenWords + (extraSpacesRemaining-- > 0 ? 1 : 0);
+                line += string(spacesToAdd, ' ') + words[k];
             }
         }
 
-        // Dynamic programming to fill the dp array
-        for (int i = 1; i <= sLength; i++) {
-            for (int j = 1; j <= pLength; j++) {
-                if (p.charAt(j - 1) == s.charAt(i - 1) || p.charAt(j - 1) == '?') {
-                    dp[i][j] = dp[i - 1][j - 1];
-                } else if (p.charAt(j - 1) == '*') {
-                    dp[i][j] = dp[i][j - 1] || dp[i - 1][j];
-                }
-            }
-        }
-
-        return dp[sLength][pLength];
+        result.push_back(line);
+        i = j;
     }
 
-    public static void main(String[] args) {
-        String s1 = "aa";
-        String p1 = "a";
-        System.out.println(isMatch(s1, p1));  // Output: false
+    return result;
+}
 
-        String s2 = "adceb";
-        String p2 = "*a*b";
-        System.out.println(isMatch(s2, p2));  // Output: true
+int main() {
+    int n;
+    cout << "Enter the number of words: ";
+    cin >> n;
 
-        String s3 = "acdcb";
-        String p3 = "a*c?b";
-        System.out.println(isMatch(s3, p3));  // Output: false
+    vector<string> words(n);
+    cout << "Enter the words: ";
+    for (int i = 0; i < n; i++) {
+        cin >> words[i];
     }
+
+    int maxWidth;
+    cout << "Enter the maximum width: ";
+    cin >> maxWidth;
+
+    vector<string> result = fullJustify(words, maxWidth);
+
+    cout << "Justified Text:" << endl;
+    for (const string& line : result) {
+        cout << line << endl;
+    }
+
+    return 0;
 }
