@@ -13,7 +13,7 @@
 
 + [This](https://opencodeera-first-contribution.vercel.app/) is the website we have created for our first contributors, you will see a few cards with some details of the contributor.
 
-[![image](https://github.com/OpenCodeEra/first-contribution/assets/99159580/e4b28c35-8daf-4801-b096-32933d36fe99)](https://opencodeera-first-contribution.vercel.app)
+[![image](https://github.com/OpenCodeEra/First-Contribution/assets/99159580/9a14f651-fce3-4865-9aed-5e006e044f90)](https://opencodeera-first-contribution.vercel.app)
 
 + Now, to get your contributor card, you have to contribute to this repository, following our guidelines.
 
