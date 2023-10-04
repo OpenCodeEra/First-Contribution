@@ -55,6 +55,13 @@ const contributors = [
     linkedin : "www.linkedin.com/in/vijay-gunwant",
     github : "https://github.com/Vijay-Gunwant",
     gender : "male"
-},
+  },
+  {
+    name: "Pruthviraj Ilegaonkar",
+    skill: "Web | DevOps",
+    linkedin: "https://www.linkedin.com/in/pruthviraj-ilegaonkar-6b5237274/",
+    github: "https://github.com/CodeTorso",
+    gender : "male"
+  }
 ]
 export default contributors;

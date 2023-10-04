@@ -8,3 +8,4 @@
 -   [Rakshit Mehta](https://github.com/rakshit0960)
 -   [Naitik Singhal](https://github.com/Lucifer-Overridden)
 -   [Vijay Gunwant](https://github.com/Vijay-Gunwant)
+-   [Pruthviraj Ilegaonkar](https://github.com/CodeTorso)
