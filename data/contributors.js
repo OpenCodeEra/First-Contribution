@@ -62,6 +62,13 @@ const contributors = [
     linkedin: "https://www.linkedin.com/in/pruthviraj-ilegaonkar-6b5237274/",
     github: "https://github.com/CodeTorso",
     gender : "male"
-  }
+  },
+  {
+    name : "Ayush Raj",
+    skill : "FrontEnd & Cloud",
+    linkedin : "https://in.linkedin.com/in/ayush-raj-bhatt-0685051a9",
+    github : "www.github.com/ayush41",
+    gender : "male"
+},
 ]
 export default contributors;
