@@ -1,0 +1,73 @@
+//This code prompts the user to enter the number of words, the words themselves, and the maximum width. It then prints the justified text based on the user input.
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+vector<string> fullJustify(vector<string>& words, int maxWidth) {
+    vector<string> result;
+    int i = 0;
+
+    while (i < words.size()) {
+        int j = i + 1, currentLen = words[i].size();
+
+        // Add words to the current line until maxWidth is reached
+        while (j < words.size() && currentLen + words[j].size() + (j - i - 1) < maxWidth) {
+            currentLen += words[j].size();
+            j++;
+        }
+
+        int spaces = maxWidth - currentLen;
+
+        // Distribute spaces between words
+        int extraSpaces = j - i - 1;
+        string line = words[i];
+
+        // If it's the last line or only one word in the line
+        if (j == words.size() || extraSpaces == 0) {
+            for (int k = i + 1; k < j; k++) {
+                line += ' ' + words[k];
+            }
+            line += string(maxWidth - line.size(), ' '); // Pad extra spaces for the last line
+        } else {
+            int spacesBetweenWords = spaces / extraSpaces;
+            int extraSpacesRemaining = spaces % extraSpaces;
+
+            for (int k = i + 1; k < j; k++) {
+                int spacesToAdd = spacesBetweenWords + (extraSpacesRemaining-- > 0 ? 1 : 0);
+                line += string(spacesToAdd, ' ') + words[k];
+            }
+        }
+
+        result.push_back(line);
+        i = j;
+    }
+
+    return result;
+}
+
+int main() {
+    int n;
+    cout << "Enter the number of words: ";
+    cin >> n;
+
+    vector<string> words(n);
+    cout << "Enter the words: ";
+    for (int i = 0; i < n; i++) {
+        cin >> words[i];
+    }
+
+    int maxWidth;
+    cout << "Enter the maximum width: ";
+    cin >> maxWidth;
+
+    vector<string> result = fullJustify(words, maxWidth);
+
+    cout << "Justified Text:" << endl;
+    for (const string& line : result) {
+        cout << line << endl;
+    }
+
+    return 0;
+}
